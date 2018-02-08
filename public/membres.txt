@@ -1,0 +1,6 @@
+{
+	"prenom":"Daniel",
+	"nom":"Brisbo",
+	"telephone":"5145150293",
+	"courriel":"daniel.brisbo@gmail.com"
+}
