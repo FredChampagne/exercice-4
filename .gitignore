@@ -1,2 +1,6 @@
-css/
+#ignore le dossier css et les fichiers css sauf normalize.css
+css/*.css
+!css/normalize.css
+
+#ignore le dossier node-modules
 node-modules/
