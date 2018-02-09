@@ -5,7 +5,7 @@ app.use(express.static('public'));
 
 // Transforme les éléments dans le fichier JSON en tableau html
 const transforme_en_tableau = (collection) => {
-	let chaine = '<head><meta charset="utf-8" /></head>';
+	let chaine = '<head><meta charset="utf-8" /> <link rel="stylesheet" type="text/css" href="css/styles.css"></head>';
 	chaine += '<table><thead><tr><th>Prénom</th><th>Nom</th><th>Téléphone</th><th>Courriel</th></thead>'
 	collection.forEach((elm)=>{
 		chaine += "<tr><td>" + elm.prenom + '</td><td>' + elm.nom + '</td><td>' + elm.telephone + '</td><td>' + elm.courriel + '</td></tr>';

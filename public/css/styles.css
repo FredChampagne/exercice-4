@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+table {
+  border-collapse: collapse;
+}
+table td,
+table th {
+  border: 1px dotted #aaa;
+  padding: 5px;
+}
