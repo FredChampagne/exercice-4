@@ -6,6 +6,10 @@ body {
 table {
   border-collapse: collapse;
 }
+table thead {
+  background-color: black;
+  color: white;
+}
 table td,
 table th {
   border: 1px dotted #aaa;
