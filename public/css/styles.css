@@ -14,5 +14,5 @@ table thead {
 table td,
 table th {
   border: 1px dotted #aaa;
-  padding: 5px;
+  padding: 5px 10px;
 }
