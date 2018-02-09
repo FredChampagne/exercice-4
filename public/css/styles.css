@@ -16,3 +16,6 @@ table th {
   border: 1px dotted #aaa;
   padding: 5px 10px;
 }
+form {
+  border: 1px solid black;
+}
